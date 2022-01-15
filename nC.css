@@ -7,7 +7,7 @@
 body {
     padding: 0;
     margin: 0;
-    background: linear-gradient(to left, rgb(172, 17, 172), rgb(58, 2, 58) );
+    background: linear-gradient(to top, rgb(58, 2, 58) , rgb(172, 17, 172));
 
 }
 
@@ -37,4 +37,24 @@ body {
 .output {
     grid-column: 1 / -1;
     background-color: rgb(12, 0, 12);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+
 }
+
+.output .previous-operand {
+    color: red;
+    font-size: 1.5rem;
+}
+
+.output .current-operand {
+    color: yellow;
+    font-size: 2.5rem;
+}
+
+
