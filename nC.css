@@ -7,7 +7,7 @@
 body {
     padding: 0;
     margin: 0;
-    background: linear-gradient(to left, rgb(145, 12, 145), rgb(24, 0, 24) );
+    background: linear-gradient(to left, rgb(172, 17, 172), rgb(58, 2, 58) );
 
 }
 
@@ -24,5 +24,17 @@ body {
     cursor: pointer;
     font-size: 2rem;
     border: 1px solid rgb(177, 72, 177);
-    
+    outline: none;
+    background-color: rgb(253, 171, 253);
+}
+
+.calculator-grid > button:hover {
+    background-color: rgb(252, 143, 252);
+}
+.span-two {
+    grid-column: span 2;
+}
+.output {
+    grid-column: 1 / -1;
+    background-color: rgb(12, 0, 12);
 }
